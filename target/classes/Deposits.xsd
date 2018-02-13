@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified"
+	elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="Deposits">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="Deposit" maxOccurs="unbounded"
+					minOccurs="0">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element type="xs:string" name="CustomerId" />
+							<xs:element type="xs:string" name="Name" />
+							<xs:element type="xs:string" name="City" />
+							<xs:element type="xs:float" name="ammount" />
+						</xs:sequence>
+						<xs:attribute type="xs:ID" name="ID" use="optional" />
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="sum">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element type="xs:float" name="ammount" />
+						</xs:sequence>
+						<xs:attribute type="xs:ID" name="ID" />
+					</xs:complexType>
+				</xs:element>
+				<!-- Signature Region, when present -->
+				<xs:any processContents="lax" namespace="##any" minOccurs="0" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>
+
+
+
+

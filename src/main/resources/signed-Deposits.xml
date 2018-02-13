@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><Deposits>
+	<Deposit>
+		<CustomerId>01A</CustomerId>
+		<Name>John Scully</Name>
+		<City>Washington</City>
+		<ammount>457.45</ammount>
+	</Deposit>
+	<Deposit ID="deposit">
+		<CustomerId>02A</CustomerId>
+		<Name>Adrian Smith</Name>
+		<City>Detroit</City>
+		<ammount>600</ammount>
+	</Deposit>
+	<Deposit>
+		<CustomerId>03A</CustomerId>
+		<Name>Bernich Summanst</Name>
+		<City>Seattle</City>
+		<ammount>672.54</ammount>
+	</Deposit>
+	<sum ID="total">
+		<ammount>45674.44</ammount>
+	</sum>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/><Reference URI="#total"><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><DigestValue>9GFNfP8QSfxljFzmXqKnZMelvA0=</DigestValue></Reference></SignedInfo><SignatureValue>Atj8cDduHR5qeyTX+SlpK2U/4Mgo6D3Hellc7IyvD16crikowyLYfCB/p1tUkijbuMZ6K8LR6Gik
+0hLwXWDmMco842a7O+qvpBy511zZdO63c687VMNK7UjLFYAgKpBE60LzKySPHX60bjF6ZuQ5ezB9
+Qsipp/JZxRP/BSHsepXzPPfPAenx790YZFV/iexNAtkT64BDMaKTSYfq+swFdB2XVLtp0DrXgqOA
+QAT8gyAMXEasdSetTLRTg+SprvkU2lmF4Mx2mEh2TLmxSG2Iqp3HLIVdDmLFP2ex9FRrfyfe1GTn
+XPsj90Qc2XqGRTS1tuFzv+huw7OdKUevgxSD5A==</SignatureValue><KeyInfo><X509Data><X509SubjectName>CN=Ualter Azambuja,OU=Arquitecture,O=Company,L=Barcelona,ST=Barcelona,C=ES</X509SubjectName><X509Certificate>MIIDjzCCAnegAwIBAgIEQscsvDANBgkqhkiG9w0BAQsFADB4MQswCQYDVQQGEwJFUzESMBAGA1UE
+CBMJQmFyY2Vsb25hMRIwEAYDVQQHEwlCYXJjZWxvbmExEDAOBgNVBAoTB0NvbXBhbnkxFTATBgNV
+BAsTDEFycXVpdGVjdHVyZTEYMBYGA1UEAxMPVWFsdGVyIEF6YW1idWphMB4XDTE4MDIwOTEzMjM1
+N1oXDTQ1MDYyNzEzMjM1N1oweDELMAkGA1UEBhMCRVMxEjAQBgNVBAgTCUJhcmNlbG9uYTESMBAG
+A1UEBxMJQmFyY2Vsb25hMRAwDgYDVQQKEwdDb21wYW55MRUwEwYDVQQLEwxBcnF1aXRlY3R1cmUx
+GDAWBgNVBAMTD1VhbHRlciBBemFtYnVqYTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEB
+AJMoxoP4vdnkoLJUEJkgEqm/DoGjBKJOw5ohIHsSUXTEHnf9ZNIHO4ibKtskxQ+EAD/REFSU20A+
+k/EtWSLINYWA9YPBBuypqWUswp5eoN3/VPiEz0owAMQKcnkCXRNE+vEDiO7d1svkB9i29sNtpNsB
+qpMCrpIlQ0LGCHD118CN0w7y/U4iJ6eBzQV0irSG8XQL9rjmA4VCg702S0zrbpLq469Yqzz+cFr3
+Zxnc+gZW6kvobMJzgw+M5d6/7KB8vntRBt+YunkhncAPGtm5DvU8IoI3K39IgDFAwW6M0ZX0BC6y
+acLY9KPC90es6OOAHULZ9tn91OGKerYIC7GlatUCAwEAAaMhMB8wHQYDVR0OBBYEFJ8s7XSYFRbk
+v9z4L7xM0+cGDUbFMA0GCSqGSIb3DQEBCwUAA4IBAQAwFqhDveDVY8pYFkoh8qApOj33ypsND5p6
+XqWMqa20xGxCHwz3Bi+8fZomMvfRZz4qVFMizWPoO0Y8tcP0+3JRtgNr6Pos6tx9N2TtiDTaih2R
+3Xd+QrnnzSPIiCFl1A2xl9rdzuLq5snQjIcnHJqv2Mm6CHVBcBOlvhlWxxuD3l8nmAu3K11/Txh+
+zqAEahq+Sgkxp9iQiXikwUrNQtXFh2h7NcD35C8nEcNHQqrFWD2RY8nUr/XLxJp+UrR6OU4LWWPX
+oi6IHLiSS1A8qLcJ5MabUuysun1OC0JySngHXGqOaB8L9jaebwXL4xthoVvu7HfgHTm5Y8S5nQKG
+ke4h</X509Certificate><X509IssuerSerial><X509IssuerName>CN=Ualter Azambuja,OU=Arquitecture,O=Company,L=Barcelona,ST=Barcelona,C=ES</X509IssuerName><X509SerialNumber>1120349372</X509SerialNumber></X509IssuerSerial></X509Data></KeyInfo></Signature><Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/><Reference URI="#deposit"><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><DigestValue>cCImS3DNOGDix/78ZdHyYr0a+Yg=</DigestValue></Reference></SignedInfo><SignatureValue>Q3vvV+FulcohSn4Gm0WzbP1+EFqMrte24V0QSOuFBXTecrCdZoPhK14ZyPlM42BlnVXpkburMCdf
+k0RzEwFu9rQ1pBFqwL8iO+gwXSeMOzZrAI0+r2kEUbh03amVT1asrEsqTX22QJrGdQCFSjdRNPsa
+WijtDhU3KbpEQTH+ddLR1/wEOCFcLyWLwzeDRR1VZq4frw4cVszkE18MsPdkDZzlEWjubxBEJ2GP
+yCGUcvfs3j4UkA27Eg/VMDs9OkkivI2XAs/B2en8z8C/tqlCHLi8gSY+FUy44XUBURwKvVr+8HVP
+PDMmgyTR9P5HUNBlwaaljjqOZw2VCoFkPnYesg==</SignatureValue><KeyInfo><X509Data><X509SubjectName>CN=Ualter Azambuja,OU=Arquitecture,O=Company,L=Barcelona,ST=Barcelona,C=ES</X509SubjectName><X509Certificate>MIIDjzCCAnegAwIBAgIEQscsvDANBgkqhkiG9w0BAQsFADB4MQswCQYDVQQGEwJFUzESMBAGA1UE
+CBMJQmFyY2Vsb25hMRIwEAYDVQQHEwlCYXJjZWxvbmExEDAOBgNVBAoTB0NvbXBhbnkxFTATBgNV
+BAsTDEFycXVpdGVjdHVyZTEYMBYGA1UEAxMPVWFsdGVyIEF6YW1idWphMB4XDTE4MDIwOTEzMjM1
+N1oXDTQ1MDYyNzEzMjM1N1oweDELMAkGA1UEBhMCRVMxEjAQBgNVBAgTCUJhcmNlbG9uYTESMBAG
+A1UEBxMJQmFyY2Vsb25hMRAwDgYDVQQKEwdDb21wYW55MRUwEwYDVQQLEwxBcnF1aXRlY3R1cmUx
+GDAWBgNVBAMTD1VhbHRlciBBemFtYnVqYTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEB
+AJMoxoP4vdnkoLJUEJkgEqm/DoGjBKJOw5ohIHsSUXTEHnf9ZNIHO4ibKtskxQ+EAD/REFSU20A+
+k/EtWSLINYWA9YPBBuypqWUswp5eoN3/VPiEz0owAMQKcnkCXRNE+vEDiO7d1svkB9i29sNtpNsB
+qpMCrpIlQ0LGCHD118CN0w7y/U4iJ6eBzQV0irSG8XQL9rjmA4VCg702S0zrbpLq469Yqzz+cFr3
+Zxnc+gZW6kvobMJzgw+M5d6/7KB8vntRBt+YunkhncAPGtm5DvU8IoI3K39IgDFAwW6M0ZX0BC6y
+acLY9KPC90es6OOAHULZ9tn91OGKerYIC7GlatUCAwEAAaMhMB8wHQYDVR0OBBYEFJ8s7XSYFRbk
+v9z4L7xM0+cGDUbFMA0GCSqGSIb3DQEBCwUAA4IBAQAwFqhDveDVY8pYFkoh8qApOj33ypsND5p6
+XqWMqa20xGxCHwz3Bi+8fZomMvfRZz4qVFMizWPoO0Y8tcP0+3JRtgNr6Pos6tx9N2TtiDTaih2R
+3Xd+QrnnzSPIiCFl1A2xl9rdzuLq5snQjIcnHJqv2Mm6CHVBcBOlvhlWxxuD3l8nmAu3K11/Txh+
+zqAEahq+Sgkxp9iQiXikwUrNQtXFh2h7NcD35C8nEcNHQqrFWD2RY8nUr/XLxJp+UrR6OU4LWWPX
+oi6IHLiSS1A8qLcJ5MabUuysun1OC0JySngHXGqOaB8L9jaebwXL4xthoVvu7HfgHTm5Y8S5nQKG
+ke4h</X509Certificate><X509IssuerSerial><X509IssuerName>CN=Ualter Azambuja,OU=Arquitecture,O=Company,L=Barcelona,ST=Barcelona,C=ES</X509IssuerName><X509SerialNumber>1120349372</X509SerialNumber></X509IssuerSerial></X509Data></KeyInfo></Signature></Deposits>

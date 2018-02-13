@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Deposits>
+	<Deposit>
+		<CustomerId>01A</CustomerId>
+		<Name>John Scully</Name>
+		<City>Washington</City>
+		<ammount>457.45</ammount>
+	</Deposit>
+	<Deposit ID="deposit">
+		<CustomerId>02A</CustomerId>
+		<Name>Adrian Smith</Name>
+		<City>Detroit</City>
+		<ammount>600</ammount>
+	</Deposit>
+	<Deposit>
+		<CustomerId>03A</CustomerId>
+		<Name>Bernich Summanst</Name>
+		<City>Seattle</City>
+		<ammount>672.54</ammount>
+	</Deposit>
+	<sum ID="total">
+		<ammount>45674.44</ammount>
+	</sum>
+</Deposits>
